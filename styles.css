@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mainContainer {
+  background-color: #228B22 !important;
+  height: 100vh;
+  padding-top: 5px;
+}
+
+.navbar-dark .nav-item .nav-link {
+  color: #fff;
+}
+
+.navbar-dark .nav-item .nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+  border-radius: 0.25rem;
+  color: #fff;
+}
+
+.navbar-brand {
+  background: linear-gradient(to right, #228B22, #39FF14, #c7ea46, #eedd44);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.fa-li {
+  position: relative;
+  left: 0;
+}
+
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+}
+
+h2 {
+  font-family: sans-serif;
+}
+
+h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.hero h1 {
+  color: #c7ea46;
+}
+
+.hero p {
+  color: whitesmoke;
+}
+
+.hero img {
+  border-radius: 25%;
+}
+
+.hero {
+  position: relative;
+  top: 10rem;
+}
+
+.hero button {
+  padding: 5px 30px;
+}
+
+.about{
+  position: relative;
+  top: 5rem;
+}
+
+
+.about h3,
+h4,
+ul {
+  text-align: left !important;
+  position: relative;
+  left: 0.3rem;
+}
+
+.examples {
+  position: relative;
+  top: 5rem;
+}
+
+.how-to-use {
+  position: relative;
+  top: 15rem;
+}
+
+.how-to-use img {
+  width: 200px;
+  height: 200px;
+}
+
+.searched-services {
+  position: relative;
+  top: 25rem;
+}
+
+footer {
+  height: 150px;
+  background: limegreen;
+  color: #FFFFFF;
+  opacity: .5;
+  position: relative;
+  top: 500px;
+  padding-bottom: 20px;
+}
+
+footer h2 {
+  font-family: 'Trirong', serif;
+  font-size: 20px;
+  color: #000;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.socialLinks {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 20px;
+}
+
+/* .about h3{
+        text-align: left !important;
+      } */
+
+
+.register button{
+  background-color: #228B22 !important;
+  border: 3px solid #228B22;
+}
+
+label {
+  font-size: 1em;
+  font-weight: bold;
+  border: 2px solid grey;
+  display: inline-block;
+  padding: 10px;
+   
+}
+
+.myclass {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+

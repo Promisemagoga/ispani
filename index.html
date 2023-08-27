@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Handy</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+  <div class="mainContainer">
+    <div class="m-4">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a href="#" class="navbar-brand">PHUSHA</a>
+          <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <form class="d-flex align-items-center w-100 form-search">
+              <div class="input-group">
+                <button class="btn btn-dark dropdown-toggle shadow-0" type="button" data-mdb-toggle="dropdown"
+                  aria-expanded="false" style="padding-bottom: 0.4rem;">
+                  All
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark fa-ul">
+                  <li>
+                    <a class="dropdown-item" href="#"><span class="fa-li pe-2"><i
+                          class="fas fa-search"></i></span>All</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"><span class="fa-li pe-2"><i
+                          class="fas fa-film"></i></span>Titles</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"><span class="fa-li pe-2"><i class="fas fa-tv"></i></span>TV
+                      Episodes</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"><span class="fa-li pe-2"><i
+                          class="fas fa-user-friends"></i></span>Celebs</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"><span class="fa-li pe-2"><i
+                          class="fas fa-building"></i></span>Companies</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"><span class="fa-li pe-2"><i
+                          class="fas fa-key"></i></span>Keywords</a>
+                  </li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"><span class="fa-li pe-2"><i
+                          class="fas fa-search-plus"></i></span>Advanced
+                      search<i class="fas fa-chevron-right ps-2"></i></a>
+                  </li>
+                </ul>
+                <input type="search" class="form-control" placeholder="Search" aria-label="Search" />
+              </div>
+              <a href="#!" class="text-white"><i class="fas fa-search ps-3"></i></a>
+            </form>
+            <ul class="navbar-nav ms-3">
+
+              <li class="nav-item" style="width: 75px;">
+                <a class="nav-link d-flex align-items-center" href="pages/userProfile.html">Sign Up</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="container hero">
+      <div class="row">
+        <div class="col-12 col-lg-6 col-xl-5 offset-xl-1">
+          <h1>DO YOU HAVE A TALENT?</h1>
+          <P>Pusha it is a platform that gives you a stage to show case your skills and it links you
+            up with your consumers</P>
+         <a href="/pages/SignIn.html"><button class="btn btn-light btn-lg action-button" type="button">Login <i
+              class="fa fa-long-arrow-right ml-2"></i></button></a> 
+        </div>
+        <div class="col-md-5 col-lg-5 offset-lg-1 offset-xl-0 d-lg-block">
+            <img  src="assets/images/hand-1515895__340.webp" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+<div class="about text-center">
+  <h1>ABOUT</h1>
+  <h2>Types of talent we support</h2>
+  <div class="row examples">
+    <div class="col-12 col-lg-6 col-xl-5 offset-xl-1">
+  <h3>We support pure talent (Hand Jobs)</h3>
+  <h4>Example:</h4>
+  <ul>
+    <li>Baker/ Chef</li>
+    <li>Catering</li>
+    <li>Gardner</li>
+    <li>Fashion Designer</li>
+    <li>Hairstylist</li>
+    <li>Welder</li>
+    <li>House builder</li>
+    <li>Capenter</li>
+    <li>Artist(MakeUp, Sketcher, Nail technician)</li>
+    <li>etc</li>
+  </ul>
+</div>
+<div class="col-md-5 col-lg-5 offset-lg-1 offset-xl-0 d-lg-block">
+  <img  src="assets/images/fax-1889052__340.webp" alt="">
+</div>
+</div>
+<div class=" row how-to-use">
+  <div class="col-md-5 col-lg-5 offset-lg-1 offset-xl-0 d-lg-block">
+    <img  src="assets/images/question-mark-40876__340.webp" alt="">
+  </div>
+  <div class="col-12 col-lg-6 col-xl-5 offset-xl-1">
+  <h1>How to use Phusha</h1>
+  <p>If you want to showcase your talent, sign up and tell us more about your business and show us some
+    pictures. If you want to hire a talent just go to the seach box and search the services you need.
+  </p>
+</div>
+</div>
+
+<!-- this is the closing tag of the about div -->
+</div>
+<div class="searched-services text-center">
+  <h1>Most searched services</h1>
+  <p id="services-el">
+
+  </p>
+</div>
+<footer class="footer">
+  <div class="container">
+      <div class="row">
+          <div class="socialLinks">
+              <a href="#"><img src="assets/logo/2168336.png" alt="" height="50px" width="50px" class="twiter"></a>
+              <a href="#"><img src="assets/logo/2175193.png" alt="" height="50px" width="50px" class="facebook"></a>
+              <a href="#"><img src="assets/logo/3670274.png" alt="" height="50px" width="50px" class="insta"></a>
+              <a href="#"><img src="assets/logo/3669739.png" alt="" height="50px" width="50px" class="linkedin"></a>
+              </div>
+                <h2>
+                  Developer @<a href="https://www.linkedin.com/in/promise-tshegofatso" style="color: #ffffff;"> Promise Tshegofatso Magoga</a></h2>
+      </div>
+  </div>
+      </footer>
+<script src="index.js"></script>
+</body>
+
+</html>
